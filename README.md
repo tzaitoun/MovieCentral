@@ -4,7 +4,7 @@ An Android client for the tMDB that utilizes movie data to give users a place to
 The purpose of this application is to allow me to build a more complex application on the Android platform and along the way learn new concepts/libraries/patterns. I'am hoping to learn more about the following: RxJava, Retrofit, Animations, UI Design and layouts, supporting multiple screens, UI testing, and unit testing.
 
 <img src="https://github.com/tzaitoun/MovieCentral/blob/master/Authentication.png" width="600">
-Since this is a client for tMDB, I authenticate the user using tMDB.The user has to have a tMDB account to use the application (atleast for now). The image above illustrates the sign in/up process, after a user is signed in they go to the first screen in the image below. The user's session will only be invalidated if they sign out (tMDB session id's never expire).
+Since this is a client for tMDB, I authenticate the user using tMDB.The user has to have a tMDB account to use the application (atleast for now). The image above illustrates the sign in/up process, after a user is signed in they will be redirected to the first screen in the image below. The user's session will only be invalidated if they sign out (tMDB session id's never expire).
 
 The application has 4 main functions: viewing movies, viewing news about movies, searching for movies, and talking about movies (movie discussion boards). Currently, I have only done work on the first two.
 
