@@ -29,6 +29,7 @@ The users will be able to create new posts on a movie's discussion board.
 ## Libraries used so far
 - Retrofit
 - RxJava
+- Custom Chrome Tabs
 - Epoxy (RecyclerView)
 - Picasso
 - RxFirebase
