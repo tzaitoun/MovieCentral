@@ -6,7 +6,7 @@ The purpose of this application is to allow me to build a more complex applicati
 The application has 4 main functions: viewing movies, viewing news about movies, searching for movies, and talking about movies (movie discussion boards). Currently, I have only done work on the first two.
 
 ## Authentication 
-Since this is a client for tMDB, I authenticate the user using tMDB.The user has to have a tMDB account to use the application (atleast for now). The image above illustrates the sign in/up process, after a user is signed in they will be redirected to the first screen in the image below. The user's session will only be invalidated if they sign out (tMDB session id's never expire).
+Since this is a client for tMDB, I authenticate the user using tMDB.The user has to have a tMDB account to use the application (atleast for now). The image below illustrates the sign in/up process, after a user is signed in they will be redirected to the movie screen in the second image below. The user's session will only be invalidated if they sign out (tMDB session id's never expire).
 
 <img src="https://github.com/tzaitoun/MovieCentral/blob/master/Authentication.png" width="600"></img>
 
