@@ -11,17 +11,21 @@ The application has 4 main functions: viewing movies, viewing news about movies,
 
 <img src="https://github.com/tzaitoun/MovieCentral/blob/master/MovieScreen.png" width="600"></img>
 
-View Movies: The user will be able to view movies from the movie screen for Popular, Playing Now, Upcoming, etc sorts by most popular by default. They will be able to look at a larger selection by clicking more (this screen uses paging to display all movies in that category from the api) and view details of a movie by clicking on it. In the details page, the user will be able to add a movie to their watchlist, rate a movie, view movie information, and reviews. More things will be added to this page to integrate the other parts of the application with it.
+## View Movies 
+The user will be able to view movies from the movie screen for Popular, Playing Now, Upcoming, etc sorts by most popular by default. They will be able to look at a larger selection by clicking more (this screen uses paging to display all movies in that category from the api) and view details of a movie by clicking on it. In the details page, the user will be able to add a movie to their watchlist, rate a movie, view movie information, and reviews. More things will be added to this page to integrate the other parts of the application with it.
 
 <img src="https://github.com/tzaitoun/MovieCentral/blob/master/NewsFeed.png" width="400"></img>
 
-View News: The user can view news about movies from the past week and click on it to read the article in the browser.
+## View News 
+The user can view news about movies from the past week and click on it to read the article in the browser.
 
-Searching for movies: The user will be able to search for movies and their search history will be cached. What the user can search for will depend on the capability of the api.
+## Searching for movies 
+The user will be able to search for movies and their search history will be cached. What the user can search for will depend on the capability of the api.
 
-Talking about movies: The users will be able to create new posts on a movie's discussion board. 
+## Talking about movies
+The users will be able to create new posts on a movie's discussion board. 
 
-**Libraries used so far**
+## Libraries used so far
 - Retrofit
 - RxJava
 - Epoxy (RecyclerView)
